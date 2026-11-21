@@ -2,6 +2,7 @@
   "name": "apexia-landing",
   "private": true,
   "version": "1.0.0",
+  "packageManager": "pnpm@11.28.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
