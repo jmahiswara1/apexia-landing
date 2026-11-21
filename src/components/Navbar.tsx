@@ -1,5 +1,5 @@
 import { NavLink, Link } from 'react-router-dom';
-import { Download, Sparkles, Home } from 'lucide-react';
+import { Download, LayoutGrid, Home } from 'lucide-react';
 import { useI18n } from '../i18n';
 
 export function Navbar() {
@@ -21,7 +21,7 @@ export function Navbar() {
             <span>{t('nav.home')}</span>
           </NavLink>
           <NavLink to="/fitur" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}>
-            <Sparkles size={14} />
+            <LayoutGrid size={14} />
             <span>{t('nav.features')}</span>
           </NavLink>
           <NavLink to="/download" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}>

@@ -7,15 +7,6 @@ export function HomePage() {
 
   return (
     <section className="hero">
-      <div className="hero-badge">
-        <span className="hero-badge-dots" aria-hidden="true">
-          <span className="badge-dot eight">8</span>
-          <span className="badge-dot nine">9</span>
-          <span className="badge-dot ten">10</span>
-        </span>
-        <span>{t('hero.badge')}</span>
-      </div>
-
       <h1 className="hero-title">
         {t('hero.titleBefore')}
         <span className="hero-inline-art" aria-hidden="true">
@@ -67,7 +58,7 @@ export function HomePage() {
         {/* Center 3D Hero Asset */}
         <div className="hero-center-art">
           <img
-            src="/assets/hero-center.png"
+            src="/assets/hero-center.png?v=3"
             alt="Apexia 3D Billiard 9-Ball & Rack"
             className="hero-center-img"
           />

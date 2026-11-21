@@ -24,7 +24,6 @@ const dict = {
     'nav.getApp': 'Unduh App',
 
     // Hero (HomePage)
-    'hero.badge': '8-Ball · 9-Ball · 10-Ball · 100% Offline',
     'hero.titleBefore': 'Atur',
     'hero.titleAfter': 'turnamen,',
     'hero.titleLine2': 'main lebih seru bersama teman',
@@ -43,7 +42,6 @@ const dict = {
     'hero.stat2Value': '64 Pemain',
 
     // Features Page
-    'features.eyebrow': 'Dirancang untuk sesi biliar nyata',
     'features.title': 'Semua yang Anda butuhkan dari meja ke juara',
     'features.subtitle':
       'Baik main santai bareng teman maupun mengelola turnamen klub, Apexia menjaga jadwal, skor, dan klasemen tetap rapi bahkan tanpa koneksi internet.',
@@ -68,7 +66,6 @@ const dict = {
       'Seluruh data tersimpan lokal di perangkat. Ekspor atau pulihkan semua turnamen dalam satu file JSON, tersedia dalam Bahasa Indonesia & English.',
 
     // Download Page
-    'download.eyebrow': 'Mulai dalam hitungan detik',
     'download.title': 'Pasang Apexia di perangkat Anda',
     'download.subtitle':
       'Gratis, ringan, dan langsung berjalan offline. Pilih platform yang paling nyaman untuk Anda gunakan.',
@@ -108,7 +105,6 @@ const dict = {
     'nav.getApp': 'Get App',
 
     // Hero (HomePage)
-    'hero.badge': '8-Ball · 9-Ball · 10-Ball · 100% Offline',
     'hero.titleBefore': 'Run',
     'hero.titleAfter': 'tournaments,',
     'hero.titleLine2': 'play sharper with every rack',
@@ -127,7 +123,6 @@ const dict = {
     'hero.stat2Value': '64 Players',
 
     // Features Page
-    'features.eyebrow': 'Built for real billiard sessions',
     'features.title': 'Everything you need from rack one to champion',
     'features.subtitle':
       'Whether playing casually with friends or running a club cup, Apexia keeps fixtures, scores, and standings effortless — even offline.',
@@ -152,7 +147,6 @@ const dict = {
       'All data stays privately on your device. Export or restore every tournament in one JSON file, available in English & Bahasa Indonesia.',
 
     // Download Page
-    'download.eyebrow': 'Start in seconds',
     'download.title': 'Install Apexia on your device',
     'download.subtitle':
       'Free, lightweight, and works completely offline. Choose the option that fits your device best.',

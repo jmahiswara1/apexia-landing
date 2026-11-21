@@ -18,12 +18,6 @@ export function Footer() {
           <span className="footer-tagline">{t('footer.tagline')}</span>
         </div>
 
-        <div className="footer-links">
-          <Link to="/">{t('nav.home')}</Link>
-          <Link to="/fitur">{t('nav.features')}</Link>
-          <Link to="/download">{t('nav.download')}</Link>
-        </div>
-
         <span className="footer-copy">{t('footer.rights', { year })}</span>
       </div>
     </footer>

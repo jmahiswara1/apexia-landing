@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Download, Sparkles } from 'lucide-react';
+import { Download } from 'lucide-react';
 import { useI18n, type TranslationKey } from '../i18n';
 
 const featureItems: readonly { art: string; titleKey: TranslationKey; descKey: TranslationKey }[] = [
@@ -17,10 +17,6 @@ export function FeaturesPage() {
   return (
     <section className="page-container">
       <div className="page-header">
-        <span className="page-eyebrow">
-          <Sparkles size={13} />
-          <span>{t('features.eyebrow')}</span>
-        </span>
         <h1 className="page-title">{t('features.title')}</h1>
         <p className="page-subtitle">{t('features.subtitle')}</p>
       </div>

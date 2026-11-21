@@ -1,4 +1,4 @@
-import { Download, ExternalLink, Globe, Smartphone } from 'lucide-react';
+import { ExternalLink, Globe, Smartphone } from 'lucide-react';
 import { siteConfig } from '../config';
 import { useI18n } from '../i18n';
 
@@ -8,10 +8,6 @@ export function DownloadPage() {
   return (
     <section className="page-container">
       <div className="page-header">
-        <span className="page-eyebrow">
-          <Download size={13} />
-          <span>{t('download.eyebrow')}</span>
-        </span>
         <h1 className="page-title">{t('download.title')}</h1>
         <p className="page-subtitle">{t('download.subtitle')}</p>
       </div>
